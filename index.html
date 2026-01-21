@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Du lịch Xanh Đa Phúc</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        *{box-sizing:border-box;margin:0;padding:0}
+        body{font-family:'Poppins',sans-serif;background:#f4fbf9;color:#2c3e50;line-height:1.7}
+
+        .hero{min-height:70vh;background:linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),url('https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1500&q=80');background-size:cover;background-position:center;color:#fff;display:flex;align-items:center;justify-content:center;text-align:center;padding:40px 20px}
+        .hero h1{font-size:3rem;margin-bottom:10px}
+        .hero p{font-size:1.1rem}
+        .badge{display:inline-block;background:#1abc9c;padding:6px 14px;border-radius:20px;margin-bottom:15px;font-size:.9rem}
+
+        .container{max-width:1100px;margin:auto;padding:60px 20px}
+        h2{color:#16a085;margin-bottom:20px;position:relative}
+        h2::after{content:"";width:60px;height:4px;background:#1abc9c;position:absolute;left:0;bottom:-8px;border-radius:2px}
+
+        .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:22px;margin-top:30px}
+        .card{background:#fff;border-radius:18px;overflow:hidden;box-shadow:0 8px 20px rgba(0,0,0,.08);transition:.3s}
+        .card:hover{transform:translateY(-6px)}
+        .card img{width:100%;height:170px;object-fit:cover}
+        .card .content{padding:18px}
+        .card h3{color:#1abc9c;margin-bottom:8px}
+
+        .info-box{background:linear-gradient(135deg,#1abc9c,#16a085);color:#fff;padding:30px;border-radius:18px;margin-top:40px;text-align:center}
+        .location{margin-top:15px;background:rgba(255,255,255,.15);padding:15px;border-radius:12px}
+
+        .section-flex{display:flex;gap:30px;flex-wrap:wrap;align-items:center}
+        .section-flex img{width:100%;max-width:420px;border-radius:20px;box-shadow:0 10px 25px rgba(0,0,0,.15)}
+        .section-flex .text{flex:1}
+
+        footer{background:#0e5f54;color:#fff;text-align:center;padding:30px 20px;margin-top:60px}
+
+        @media(max-width:600px){.hero h1{font-size:2.2rem}}
+    </style>
+</head>
+<body>
+
+<section class="hero">
+    <div>
+        <span class="badge">24/01/2026 – 25/01/2026</span>
+        <h1>DU LỊCH XANH ĐA PHÚC</h1>
+        <p>Chạm thiên nhiên – Trải nghiệm bên sông Cà Lồ</p>
+        <p>Chỉ 40 phút lái xe từ trung tâm Hà Nội</p>
+    </div>
+</section>
+
+<section class="container">
+    <h2>Trải nghiệm mới lạ</h2>
+    <div class="grid">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80">
+            <div class="content"><h3>🌅 Cắm trại & Yoga</h3><p>Trà chiều ngắm hoàng hôn, yoga thư giãn và ăn sáng chill đón bình minh.</p></div>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1520975916090-3105956dac38?auto=format&fit=crop&w=800&q=80">
+            <div class="content"><h3>🎈 Check-in khinh khí cầu</h3><p>Khinh khí cầu sắc màu, chong chóng tre khổng lồ.</p></div>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1544551763-cede47e0b7d5?auto=format&fit=crop&w=800&q=80">
+            <div class="content"><h3>🚣 Workshop học chèo Sup</h3><p>Học chèo SUP và chụp ảnh trải nghiệm trên sông.</p></div>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1504805572947-34fad45aed93?auto=format&fit=crop&w=800&q=80">
+            <div class="content"><h3>🎵 Thưởng thức âm nhạc Acoustic</h3><p>Thưởng thức âm nhạc bên dòng sông Cà Lồ thơ mộng.</p></div>
+        </div>
+    </div>
+
+    <h2 style="margin-top:60px">Khám phá văn hóa địa phương</h2>
+    <div class="grid">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1605532700647-46b6d6e2c2fa?auto=format&fit=crop&w=800&q=80">
+            <div class="content"><h3>🏛 Di tích lịch sử</h3><p>Đền Bà, Đình Tiên Tảo, Đình – Chùa Đức Hậu, “Nam Quốc Sơn Hà”.</p></div>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1578898887932-dce23a595ad5?auto=format&fit=crop&w=800&q=80">
+            <div class="content"><h3>🎎 Lễ hội dân gian</h3><p>Kéo mỏ, bịt mắt bắt vịt, đi cầu thăng bằng, đập niêu…</p></div>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1608571424260-28f4c17d90e1?auto=format&fit=crop&w=800&q=80">
+            <div class="content"><h3>🛍 Gian hàng OCOP</h3><p>Sản phẩm đặc trưng xã Đa Phúc.</p></div>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=800&q=80">
+            <div class="content"><h3>🔥 Lửa trại & Pháo hoa</h3><p>Đêm giao lưu “Nối vòng tay lớn” đầy cảm xúc.</p></div>
+        </div>
+    </div>
+
+    <div class="info-box">
+        <h3>DU LỊCH XANH ĐA PHÚC</h3>
+        <p>ĐÁNG ĐẾN – ĐÁNG SỐNG – ĐÁNG ĐỂ YÊU</p>
+        <div class="location">📍 Khu vực River Camping triền đê – bãi bồi thôn Bến & thôn Trung, xã Đa Phúc, Hà Nội</div>
+    </div>
+</section>
+
+<section class="container">
+    <h2>[Check-in] Đền Bà – Xuân Lai</h2>
+    <div class="section-flex">
+        <img src="https://images.unsplash.com/photo-1605532700647-46b6d6e2c2fa?auto=format&fit=crop&w=900&q=80">
+        <div class="text">
+            <p>Xuân Lai là một làng cổ của xã Đa Phúc, nơi giao thoa giữa trung du và đồng bằng sông Hồng, nổi bật với hệ thống đình – đền – chùa cổ kính.  Trong đó Đền Bà- Xuân Lai là một di tích tiêu biểu.</p>
+            <p>Đền Bà thờ Đống Nương Chế Thắng Hòa Diệu phu nhân – vị nữ thần linh thiêng được nhân dân tôn kính.</p>
+            <p>Lễ hội tổ chức ngày mồng 4 tháng Giêng âm lịch với nhiều nghi lễ trang trọng và trò diễn dân gian, đặc biệt là nghi lễ Kéo mỏ mang ý nghĩa cầu mưa thuận gió hòa, mùa màng tươi tốt.</p>
+        </div>
+    </div>
+</section>
+
+<section class="container">
+    <h2>[Check-in] Đình Tiên Tảo</h2>
+    <div class="section-flex">
+        <div class="text">
+            <p>Đình Tiên Tảo là trung tâm sinh hoạt văn hóa – tín ngưỡng của thôn Tiên Tảo, thờ Đức Thánh Tam Giang (Trương Hống, Trương Hát).</p>
+            <p>Các Ngài là danh tướng triều Triệu Việt Vương, có công bảo vệ nước Vạn Xuân thế kỷ VI.</p>
+            <p>Lễ hội bao gồm nhiều nghi thức cổ truyền như: Lễ rước nước, Lễ Mộc dục, Lễ tế Thần và phần hội sôi động với hát quan họ, trò chơi dân gian, thể thao, văn nghệ.</p>
+        </div>
+        <img src="https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=900&q=80">
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Du lịch Xanh Đa Phúc | Chạm thiên nhiên – Lan tỏa yêu thương</p>
+</footer>
+
+</body>
+</html>
